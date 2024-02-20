@@ -21,9 +21,16 @@ knitr::opts_chunk$set(eval=FALSE, warning=FALSE, error=FALSE, message=FALSE)
 ```{r, eval=TRUE}
 library(dplyr)
 library(readr)
+
+library(wesanderson)
 ```
 
 We know `{dplyr}` functions for working with a single data frame. `{dplyr}` also has functions for joining two data frames together.
+
+```{r}
+
+
+```
 
 # Data
 

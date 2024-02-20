@@ -54,7 +54,7 @@ By default, each **R** session uses the *same* set of library paths. This implie
 What is the path to the R library on your system? How many library paths are there? Which library does R search first to find a package?
 
 ```{r}
-
+.libPaths()
 ```
 
 You might see a user library, a system library and a project library.
@@ -64,7 +64,7 @@ You might see a user library, a system library and a project library.
 Which repositories are set up in your current session?
 
 ```{r}
-
+getOption("repos")
 ```
 
 ### Lifespan of a typical data science project
